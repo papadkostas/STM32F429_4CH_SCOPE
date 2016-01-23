@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F429_439xx -I..\..\..\..\..\..\..\STM32F4-4CH-Scope\cmsis_lib\include -I..\..\..\..\..\..\..\STM32F4-4CH-Scope\cmsis_lib -I..\..\..\..\..\..\..\STM32F4-4CH-Scope\ub_lib -I..\..\..\..\..\..\..\STM32F4-4CH-Scope\cmsis -I..\..\..\..\..\..\..\STM32F4-4CH-Scope -I..\..\..\..\..\..\.. -I..\..\..\..\..\..\..\STM32F4-4CH-Scope\cmsis_boot">
+      <target file="stm32f4xx_gpio.o" lastModified="1525e9e0db9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="1525e9e1067">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1423985a6f3"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1525e9e0b1a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1423985a5ea"/>
+      </target>
+      <target file="stm32_ub_graphic2d.o" lastModified="1525e9e0c14">
+         <source file="..\..\..\ub_lib\stm32_ub_graphic2d.c" lastModified="142957535e0"/>
+      </target>
+      <target file="stm32_ub_spi5.o" lastModified="1525e9e0f5e">
+         <source file="..\..\..\ub_lib\stm32_ub_spi5.c" lastModified="142035d1060"/>
+      </target>
+      <target file="stm32f4xx_fmc.o" lastModified="1525e9e11bf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1525e9e0e93">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="141e5c08730"/>
+      </target>
+      <target file="stm32_ub_lcd_ili9341.o" lastModified="1525e9e0cdf">
+         <source file="..\..\..\ub_lib\stm32_ub_lcd_ili9341.c" lastModified="14241e0c980"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1525e9e07ef">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141f8c20980"/>
+      </target>
+      <target file="main.o" lastModified="1525e9e08e9">
+         <source file="..\..\..\main.c" lastModified="15126e447fb"/>
+      </target>
+      <target file="stm32f4xx_dma2d.o" lastModified="1525e9e0679">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1525e9e12e7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="stm32_ub_sdram.o" lastModified="1525e9e0560">
+         <source file="..\..\..\ub_lib\stm32_ub_sdram.c" lastModified="141eaf375f0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1525e9e0a11">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="stm32f4xx_ltdc.o" lastModified="1525e9e0782">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="1412f6fcc70"/>
+      </target>
+      <target file="misc.o" lastModified="1525e9e13b2">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1423985a59c"/>
+      </target>
+   </processor>
+</history>

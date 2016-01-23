@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=stm32f429.map -O0 --gc-sections -LE:\Software\Applications\Portable\CoIDE\configuration\ProgramData\stm32f429 -TE:\Software\Applications\Portable\CoIDE\configuration\ProgramData\stm32f429/arm-gcc-link.ld -g">
+      <target file="stm32f429.elf" lastModified="1525e9e1622">
+         <source file="..\obj\stm32_ub_sdram.o" lastModified="1525e9e0560"/>
+         <source file="..\obj\stm32f4xx_dma2d.o" lastModified="1525e9e0679"/>
+         <source file="..\obj\stm32f4xx_ltdc.o" lastModified="1525e9e0782"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1525e9e07ef"/>
+         <source file="..\obj\main.o" lastModified="1525e9e08e9"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1525e9e0a11"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1525e9e0b1a"/>
+         <source file="..\obj\stm32_ub_graphic2d.o" lastModified="1525e9e0c14"/>
+         <source file="..\obj\stm32_ub_lcd_ili9341.o" lastModified="1525e9e0cdf"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1525e9e0db9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1525e9e0e93"/>
+         <source file="..\obj\stm32_ub_spi5.o" lastModified="1525e9e0f5e"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="1525e9e1067"/>
+         <source file="..\obj\stm32f4xx_fmc.o" lastModified="1525e9e11bf"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1525e9e12e7"/>
+         <source file="..\obj\misc.o" lastModified="1525e9e13b2"/>
+      </target>
+   </processor>
+</history>
